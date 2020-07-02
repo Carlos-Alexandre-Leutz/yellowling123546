@@ -1,0 +1,218 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cor {
+    background-color: rgba(210, 211, 197, 0.212);
+}
+
+.barra {
+    display: none;
+}
+
+input {
+    display: none;
+}
+
+.maquinaDeEscrever {
+    margin-top: 90px;
+    font-size: 50px;
+    left: 40px;
+}
+
+p {
+    line-height: 60px;
+}
+
+.titulo-principal:after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+.cor2 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 60px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.gordo {
+    width: 600px;
+    margin-top: 80px;
+}
+
+.box {
+    width: 90%;
+    margin: auto;
+    background-color: brown;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.box2 {
+    width: 80%;
+    margin: auto;
+    background-color: brown;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid 1px black;
+}
+
+
+/*mudando a cor do menu*/
+
+.teste2 {
+    background: white !important;
+    color: black!important;
+}
+
+.sidebar-wrapper {
+    background: black;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+
+
+/*fim cor menu*/
+
+.soNomobile {
+    display: none;
+}
+
+
+/* maquina de escrever*/
+
+.container {
+    margin-top: 100px;
+}
+
+.titulo-principal {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 50px;
+}
+
+.titulo-principal:after {
+    color: black;
+    content: '|';
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+
+/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+@keyframes pisca {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+
+/* fim maquina de escrever*/
+
+@media screen and (min-width: 100px) and (max-width: 770px) {
+    .menu {
+        background: white;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 15px;
+        left: 25px;
+        z-index: 1;
+    }
+    .hamburguer {
+        position: relative;
+        display: block;
+        background: #000;
+        width: 30px;
+        height: 2px;
+        top: 29px;
+        left: 15px;
+        transition: 0.5s ease-in-out;
+    }
+    .hamburguer:before,
+    .hamburguer:after {
+        background: #000;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: 0.5s ease-in-out;
+    }
+    .hamburguer:before {
+        top: -10px;
+    }
+    .hamburguer:after {
+        bottom: -10px;
+    }
+    input:checked~label .hamburguer {
+        transform: rotate(45deg);
+    }
+    input:checked~label .hamburguer:before {
+        transform: rotate(90deg);
+        top: 0;
+    }
+    input:checked~label .hamburguer:after {
+        transform: rotate(90deg);
+        bottom: 0;
+    }
+    /**  css menu latel mobile*/
+    .barra {
+        top: 0;
+        display: block;
+        background-color: #333;
+        height: 100%;
+        width: 300px;
+        position: fixed;
+        transition: all .2s linear;
+        left: -300px;
+    }
+    /**  animação menu latel mobile*/
+    #check:checked~.barra {
+        transform: translateX(300px);
+    }
+    /* itens da barra*/
+    .topbarra {
+        margin-top: 100px;
+    }
+    .itemBarra {
+        width: 99%;
+        color: white;
+        background-color: rgb(122, 122, 122);
+        height: 50px;
+        border-radius: 5px;
+        margin-bottom: 3px;
+    }
+    .soNodesktop {
+        display: none;
+        margin-top: 25px;
+    }
+    .soNomobile {
+        display: block;
+    }
+}
