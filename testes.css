@@ -1,0 +1,560 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+input {
+    display: none;
+}
+
+.soNoMobile {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex2 {
+    display: flex;
+}
+
+.texAlingCenter {
+    text-align: center;
+}
+
+.texAlingCenter2 {
+    text-align: center;
+}
+
+
+/* padrão*/
+
+.sidebar-wrapper {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    border-bottom: solid 1px #FFE300;
+}
+
+.navItemDesck {
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.alinhamentoDalogo {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.alinhamentoDalogoD {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.itemBarra {
+    display: none;
+}
+
+.botaoMenu {
+    border: none;
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.bacNav2 {
+    background: #FFE300;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    margin-top: 50px;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+}
+
+.item1 {
+    margin: auto;
+}
+
+.item2 {
+    width: 300px;
+    margin-top: 220px;
+}
+
+.background {
+    background: #FFE300;
+    width: 100%;
+    height: 400px;
+    margin-top: -20px;
+}
+
+.weAre {
+    font-size: 50px;
+    line-height: 0px;
+    font-weight: 700;
+}
+
+.technology {
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+
+.autauraDaLinha {
+    line-height: 15px;
+    font-weight: 600;
+}
+
+.imgMascote {
+    height: 200px;
+    margin-top: 200px;
+}
+
+.myriadPro {
+    font-family: 'Myriad Pro Bold';
+}
+
+.instantQuote {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FFE300;
+    border-radius: 15px;
+    font-weight: bold;
+    max-width: 250px;
+}
+
+.TranslationModeEasy {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.SundayMorning {
+    margin-left: 10px;
+    color: rgb(170, 169, 169);
+    font-size: 15px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    line-height: 5px;
+}
+
+.Umminuto {
+    color: rgb(170, 169, 169);
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 65px;
+}
+
+.cards2 {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.icones {
+    max-width: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.icones2 {
+    max-width: 210px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.margimTopIcones2 {
+    margin-top: 0px;
+}
+
+.content {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 1000;
+}
+
+.weAreCard2 {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 0px;
+}
+
+.innovation {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 45px;
+    margin-left: 15px;
+}
+
+.PassoAFrente {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+.quadrado {
+    background-color: #FFE300;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: solid #333 1px;
+    box-shadow: 10px 5px 5px #999;
+}
+
+.texto {
+    width: 150px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.titulo {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.conteudo {
+    margin-top: -15px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.eSIGNATURE {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 0px;
+    margin-top: 100px;
+}
+
+.TraduçoesJuramentadas {
+    margin-top: 30px;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.chave {
+    margin-left: 80px;
+}
+
+.trustedBy {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 65px;
+}
+
+.ProfessionalTranslation {
+    margin-top: -10px;
+}
+
+.cliente {
+    width: 50px;
+    height: 50px;
+    border: solid 1px #333;
+    margin: auto;
+}
+
+.cultura {
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.orgulhamos {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.nossaCultura {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+.responsabilidade {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.Poupamos {
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.saibaMais {
+    margin-top: 100px;
+}
+
+.duvidasAut {
+    margin-top: 50px;
+}
+
+.duvidas {
+    font-size: 35px;
+    letter-spacing: -3px;
+    font-weight: 600;
+}
+
+.quadre {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.ola {
+    font-weight: 900;
+}
+
+.bFaleCpnosco {
+    width: 150px;
+    border: solid 1px rgb(219, 219, 219);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.quadreImg {
+    margin: auto;
+    width: 100px;
+}
+
+footer {
+    background-color: #e0dede;
+    height: 100px;
+}
+
+.quadreImg {
+    margin: auto;
+    width: 100px;
+}
+
+@media screen and (max-width: 770px) {
+    .texAlingCenter2 {
+        text-align: left;
+    }
+    .quadreImg {
+        margin: initial;
+        width: 100px;
+    }
+    .quadre {
+        margin-top: 80px;
+    }
+    .nossaCultura {
+        margin-top: 0px;
+    }
+    .instantQuote {
+        padding-left: 25px;
+        padding-right: 25px;
+        width: 100%;
+        max-width: 400px;
+        margin-top: -50px;
+        margin-right: 0px;
+    }
+    .Umminuto {
+        margin-left: 130px;
+    }
+    .weAreCentro {
+        margin: auto;
+        width: 100%;
+        max-width: 300px;
+    }
+    .technology {
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+    .saibaMais {
+        margin-top: 0px;
+    }
+    /*baner*/
+    .background {
+        height: 300px;
+        margin-top: 40px;
+    }
+    .imgMascoteTamanho {
+        height: 300px;
+    }
+    .eSIGNATURE {
+        font-size: 40px;
+    }
+    /* Padão*/
+    .flex {
+        display: block;
+    }
+    .soNoMobile {
+        display: block;
+    }
+    .soNoDescktop {
+        display: none;
+    }
+    /* barra lateral*/
+    .itensBarra {
+        margin-top: 80px;
+        position: fixed;
+    }
+    .itemBarra {
+        display: block;
+        color: white;
+        background-color: #444;
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .itemBarra:hover {
+        transform: scale(1.1);
+    }
+    .menu {
+        background: white;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 10px;
+        left: 5px;
+        z-index: 1;
+    }
+    .hamburguer {
+        position: relative;
+        display: block;
+        background: #333;
+        width: 30px;
+        height: 3px;
+        top: 28px;
+        left: 15px;
+        transition: 0.5s ease-in-out;
+    }
+    .hamburguer:before,
+    .hamburguer:after {
+        background: #333;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: 0.5s ease-in-out;
+    }
+    .hamburguer:before {
+        top: -10px;
+    }
+    .hamburguer:after {
+        bottom: -10px;
+    }
+    input:checked~label .hamburguer {
+        transform: rotate(45deg);
+    }
+    input:checked~label .hamburguer:before {
+        transform: rotate(90deg);
+        top: 0;
+    }
+    input:checked~label .hamburguer:after {
+        transform: rotate(90deg);
+        bottom: 0;
+    }
+    /**  css menu latel mobile*/
+    .barra {
+        background-color: #333;
+        height: 100%;
+        width: 310px;
+        position: fixed;
+        transition: all .2s linear;
+        left: -310px;
+        top: 0;
+        border-radius: 10px;
+    }
+    /**  animação menu latel mobile*/
+    #check:checked~.barra {
+        transform: translateX(300px);
+    }
+    .sidebar-wrapper {
+        height: 80px;
+    }
+    /* animação orçamento girafa*/
+    .girafa {
+        bottom: 30px;
+        width: 300px;
+        position: fixed;
+        transition: all .2s linear;
+        right: -300px;
+    }
+    .margimTopTitulo {
+        margin-top: 100px;
+    }
+    .imgMascote2 {
+        height: 170px;
+        margin-top: 130px;
+    }
+    /**  animação menu latel mobile
+    #checke:checked~.girafa {
+        transform: translateX(-200px);
+    }
+    .orcrapido {
+        background-color: #FFE300;
+        width: 200px;
+        padding: 24px;
+        border-radius: 15px;
+        margin-left: 50px;
+        border: solid 1px black;
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: -1px
+    }
+    .cliqueAqui {
+        background-color: white;
+        color: black;
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .x {
+        background-color: #FFE300;
+        border-radius: 50px;
+        width: 30px;
+        height: 30px;
+        border: solid 1px black;
+        text-align: center;
+    }
+    /* fim da girafa*/
+}
+
+@media screen and (max-width: 500px) {
+    .flex2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .TranslationModeEasy {
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
